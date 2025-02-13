@@ -1,5 +1,9 @@
 unit mdnsCore;
 
+{$IFDEF FPC}
+  {$MODE DELPHI}{$H+}
+{$ENDIF}
+
 interface
 
 uses Types, SysUtils;
