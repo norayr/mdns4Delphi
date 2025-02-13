@@ -162,8 +162,8 @@ var
   i: Integer;
   b: Byte;
 begin
-  //userService := FConfig.UserName + '@' + FConfig.HostName + '._presence._tcp.local';
-  userService := 'inky._presence._tcp.local';
+  userService := FConfig.UserName + '@' + FConfig.HostName + '._presence._tcp.local';
+  //userService := 'inky._presence._tcp.local';
   ms := TMemoryStream.Create;
   try
     // DNS Header
