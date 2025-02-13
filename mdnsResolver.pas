@@ -17,5 +17,6 @@ interface
   {$DEFINE USE_MDNS_LINUX}
   uses mdnsResolverLinux;
 {$ENDIF}
+implementation
 
 end.
